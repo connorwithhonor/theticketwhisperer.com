@@ -1,2 +1,0 @@
-# theticketwhisperer.com
-TheTicketWhisperer.com

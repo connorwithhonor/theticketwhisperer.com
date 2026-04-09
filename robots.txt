@@ -1,1 +1,17 @@
-{"id":"/robots.txt","path":"/robots.txt","sha":"e500cd09dd05713ee3b33a4c9fc7731b8de0b562","mime_type":"text/plain","size":225,"site_id":"d5d1dfc9-65d8-41ef-b81f-5cd15228ff3f","deploy_id":"69bc8eea1b690306d3ceba55"}
+User-agent: *
+Allow: /
+
+# AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://theticketwhisperer.com/sitemap.xml
