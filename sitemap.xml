@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Maintenance note: update each <lastmod> date when major page content changes. -->
+<!-- Maintenance note: update each <lastmod> date when major page content changes.
+     2026-07-23: removed https://blog.theticketwhisperer.com/ - that subdomain no longer
+     resolves, so it was advertising a dead host to crawlers. The blog lives at /blog/. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://theticketwhisperer.com/</loc>
@@ -8,10 +10,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://blog.theticketwhisperer.com/</loc>
-    <lastmod>2026-02-17</lastmod>
+    <loc>https://theticketwhisperer.com/blog/</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url><loc>https://theticketwhisperer.com/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://theticketwhisperer.com/blog/trial-by-written-declaration-vs-traffic-school-vs-paying-california-ticket/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
